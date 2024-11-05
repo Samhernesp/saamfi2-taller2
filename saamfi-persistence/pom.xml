@@ -28,7 +28,7 @@
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
 			<scope>system</scope>
-    			<systemPath>/home/dokku/ojdbc6.jar</systemPath>
+    			<systemPath>${project.basedir}/ojdbc6-11.2.0.3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>co.edu.icesi.dev.saamfi</groupId>
