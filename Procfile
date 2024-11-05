@@ -1,1 +1,1 @@
-web: java -jar target/saamfi-rest-2.0.1.war
+web: java -jar saamfi-rest/target/saamfiapi.war
