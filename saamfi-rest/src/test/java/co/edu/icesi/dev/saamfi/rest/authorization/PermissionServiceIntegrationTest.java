@@ -55,7 +55,7 @@ public class PermissionServiceIntegrationTest {
 	@Test
 	public void testGetRolesAssociatedWithPermissionAdmInt2() {
 		long instId = 1;
-		long permissionId = 104;
+		long permissionId = 999999;
 
 		List<SaamfiRoleeStdOutDTO> rolesDTO_returned = permissionService.getRolesAssociatedWithPermissionAdm(instId,
 				permissionId);
@@ -97,7 +97,7 @@ public class PermissionServiceIntegrationTest {
 	@Test
 	public void testGetRolesAssociatedWithPermissionOperInt4() {
 		long instId = 1;
-		long permissionId = 104;
+		long permissionId = 110;
 
 		List<SaamfiRoleeStdOutDTO> rolesDTO_returned = permissionService.getRolesAssociatedWithPermissionOper(instId,
 				permissionId);

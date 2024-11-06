@@ -24,8 +24,6 @@ import co.edu.icesi.dev.saamfi.logic.implementation.authorization.SaamfiRoleServ
 import co.edu.icesi.dev.saamfi.repository.interfaces.SaamfiRolePermRepo;
 import co.edu.icesi.dev.saamfi.repository.interfaces.SaamfiRoleRepo;
 
-@SpringBootTest
-@Disabled
 public class RoleServiceTest {
 
 	@InjectMocks
@@ -84,6 +82,7 @@ public class RoleServiceTest {
 	 * @precondition
 	 */
 	@Test
+	@Disabled
 	public void saveRole11() {
 		setup();
 		rolee_01.setRoleId(1);
@@ -113,6 +112,7 @@ public class RoleServiceTest {
 	 * @precondition
 	 */
 	@Test
+	@Disabled
 	public void saveRole2() {
 
 		setup();
@@ -146,6 +146,7 @@ public class RoleServiceTest {
 	}
 
 	@Test
+	@Disabled
 	public void testDeleteRole() {
 		setup();
 		rolee_01.setRoleId(999);

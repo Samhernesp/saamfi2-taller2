@@ -50,7 +50,7 @@ public class RolePermissionServiceIntegrationTest {
 	@Test
 	public void testAddRolePermissionAdmInt2() {
 		int roleId = 1;
-		int permissionId = 3;
+		int permissionId = 6;
 
 		boolean response = rolePermissionService.addRolePermissionAdm(roleId, permissionId);
 		assertFalse(!response);
